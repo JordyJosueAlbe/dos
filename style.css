@@ -1,0 +1,21 @@
+
+#navegador ul{
+   list-style-type: none;
+   text-align: center;
+}
+#navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+#navegador li a {
+   padding: 2px 7px 2px 7px;
+   color: #98FF00;
+   background-color: #437000;
+   border: 1px solid #98FF00;
+   text-decoration: none;
+}
+#navegador li a:hover{
+   background-color: #98FF00;
+   color: #437000;
+}
