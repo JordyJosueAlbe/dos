@@ -1,183 +1,85 @@
-<!DOCTYPE html>
-<head>
-<title>Tablas</title>
-<style type="text/css">
-	#navegador ul{
-	   list-style-type: none;
-	   text-align: center;
-	}
-	#navegador li{
-	   display: inline;
-	   text-align: center;	
-	   margin: 0 10px 0 0;
-	}
-	#navegador li a{
-	   padding: 2px 7px 2px 7px;
-	   color:#666;	
-	   background-color: #eeeeee;
-	   border: 1px solid #ccc;
-	   text-decoration: none;
-	}
-    #navegador li a:hover{
-	   background-color: #333333;
-	   color: #ffffff;
-	}
-    </style>
-</head>
-<body body bgcolor="B6FF00" text="black">
 
-<div id="navegador">
-	<ul>
-		<li><a href="/Coursera-Jordy-Albe-o-5BC/datos.html">Datos Personales</a></li>
-		<li><a href="/Coursera-Jordy-Albe-o-5BC/listas.html">Listas</a></li>
-		<li><a href="/Coursera-Jordy-Albe-o-5BC/tablas.html">Tablas</a></li>
-		<li><a href="/Coursera-Jordy-Albe-o-5BC/graficos.html">Graficos</a></li>
-	</ul>	
-</div>	
+!DOCTYPE html>
+ <html>
+ <head>
+  <title>Mi primera pagina web para Coursera</title>
+  <link rel="stylesheet"
+  href="style.css">
+  <style type="text/css">
+  h1
+  {
+    color:#FFD400;
+    background-color:#FF3E00;
+  } 
+  table
+  {
+    color:#000B9E;
+    background-color:#00E6FF;
+  }   
+  footer
+  {
+    color:#FF3E00;
+  }
+  </style> 
+ 
+ </head>
+ <body bgcolor="#2E2E2E" text="white" link="#009BFF" alink="#FF4B00" vlink="#6CC400">
 
-<u><h1><i><font color="blue"><center>Tablas</center></font></i></h1></u>	
-<hr size="6" width="80%">
+<header align = "center">
+    <img src = "imagen/dos.jpg" align="right" width="220" height="200">
+  <h1 style="color:#98FF00; background-color:#2E2E2E">EJERCICIOS DEL WEB SITE POLICAR S.A.</h1> 
+  <h2>Nos encargamos de hacer el mejor plastico desde 1969.</h2>
+
+<div id="navegador" style="background-color:#2E2E2E">
+<ul>
+ <li><a href="index.html">Datos Personales</a></li>
+ <li><a href="listas.html">Listas </a></li>
+ <li><a href="tablas.html">Tablas</a></li>
+ <li><a href="imagen.html">Graficos de dino</a></li>
+</ul>
+</div>
+</header>
+
+ 
+<div id="uno" style="color:#000B9E; background-color:#FFD400;">
+  
+<h1> Tablas de datos HTML</h1>
+<p id="tablas">Ejemplo de tablas</p>
 <center><table class="default" border="1"></center>
 
   <tr>
-
-    <td>Hoy</td>
-
-    <td>Mañana</td>
-
-    <td>Lunes</td>
-
+    <th>Hoy</th>
+    <th>Mañana</th>
+    <th>Lunes</th>
   </tr>
 
   <tr>
-
     <td>Soleado</td>
+    <td>Mayormente soleado</td>
+    <td>Parcialmente nublado</td>
+  </tr>
 
-    <td>Mayormente Soleado</td>
+  <tr>
+    <td>19°C</td>
+    <td>17°C</td>
+    <td>12°C</td>
+  </tr>
 
-    <td>Parcialmente Nublado</td>
+  <tr>
+    <td>E 13 km/h   </td>
+    <td>E 11 km/h   </td>
+    <td>S 16 km/h   <img src="imagen/dino.jpg" width="200" height="200">
+  </td>
 
- </tr>
-
- <tr>
-
-   <td>19°C</td>
-
-   <td>17°C</td>
-
-   <td>12°C</td>
-
- </tr>
-
- <tr>
-
-   <td>E 13 km/h</td>
-
-   <td>E 11 km/h</td>
-
-   <td>S 16 km/h</td>
-
- </tr>
+  </tr>
 
 </table>
-</table>
-</ul>
-
-<hr size="6" width="80%">
-
-<table class="default" border="1">
-
-<tr>
-
-<th>Carreras</th>
-
-<td>Bachillerato en Computación</td>
-
-<td>Bachillerato en Diseño Gráfico</td>
-
-<td>Perito Contador</td>
-
-<td>Administración de Empresas</td>
-
-<td>Secretariado Bilingue</td>
-<td><center><img src="t0000319.jpg" width="200" height="200"></center></td>
-
-</tr>
-
-<tr>
-
-<th>Numero de Carreras</th>
-
-<td>5</td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-</tr>
-
-
-<tr>
-
-<th>Numero de Alumnos</th>
-
-<td>43</td>
-
-<td>21</td>
-
-<td>31</td>
-
-<td>26</td>
-
-<td>19</td>
-
-<td></td>
-
-</tr>
-
-
-<tr>
-
-<th>Numero de Hombres</th>
-
-<td>26</td>
-
-<td>8</td>
-
-<td>17</td>
-
-<td>11</td>
-
-<td>0</td>
-
-<td><center><img src="t0000321.jpg" width="200" height="200"></center></td>
-
-</tr>
-
-
-<tr>
-
-<th>Numero de Mujeres</th>
-
-<td>17</td>
-
-<td>13</td>
-
-<td>14</td>
-
-<td>15</td>
-
-<td>19</td>
-
-<td><center><img src="t0000320.jpg" width="200" height="200"></center></td>
-
-</tr>
-
+</div>
+<SPAN style="color:#FFD400">Aqui terminan las tablas </SPAN>
+<br><br><br><br><br><br>
+<footer>
+  Todos los derechos reservados Instituto Profesional de Computacion 2021, Sitio Web. Diseñado por: 
+  Jordy Albeño 5to. Bachillerato en Computacion
+</footer>
 </body>
-</html>		
+</html>
