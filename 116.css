@@ -51,11 +51,11 @@ h1 {
 }
 
 .label {
-	margin: 5px;
+	margin: 8px;
 	background-color: gray;
 	padding:  0.6rem 0.6rem;
 	display: inline-block;
-	width: 30%;
+	width: 97%;
 	text-align: left;
 	font-size: 20px;
     border: 3px solid black;
@@ -80,6 +80,6 @@ h1 {
 
 @media (min-width: 992px) {
 	.label {
-		width: 30%;
+		width: 97%;
 }
 
