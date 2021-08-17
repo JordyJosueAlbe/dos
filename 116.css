@@ -1,0 +1,74 @@
+* {;
+	font: 20px Verdana;
+	margin: 0;
+}
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin: 24px;
+	}
+	footer { 
+    color:black;
+    background-color:yellow;
+  }
+
+.ea h1 {
+	color: yellow;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: left;
+	margin: 24px;
+	}
+  
+.heathen ul{
+	margin: 8px;
+	background-color: black;
+	padding:  0.6rem 0.6rem;
+	text-align: center;	width: 97%;
+    border: 3px solid black;
+}
+
+.heathen li{
+	display: inline;
+	margin: 50px;
+}
+.heathen li a{
+	color: yellow;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: black;
+	width: 97%;
+}
+
+.ea {
+	margin: 8px;
+	background-color: black;
+	padding:  0.6rem 0.6rem;
+	display: inline-block;
+	width: 97%;
+	border: 3px solid black;
+}
+
+.label {
+	margin: 5px;
+	background-color: gray;
+	padding:  0.6rem 0.6rem;
+	display: inline-block;
+	width: 30%;
+	text-align: left;
+	font-size: 20px;
+    border: 3px solid black;
+}
+
+
+@media (min-width: 767px) and (max-width:  991px) {
+	.label {
+		width: 97%;	
+	}
+
+@media (min-width: 992px) {
+	.label {
+		width: 30%;
+}
+
